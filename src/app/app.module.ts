@@ -4,14 +4,18 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NoteComponent } from './note/note.component';
 import { TaskComponent } from './task/task.component';
-import { NoteListComponent } from './note/src/app/note/note-list/note-list.component';
+import { NoteListComponent } from './note/note-list/note-list.component';
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NoteComponent,
     TaskComponent,
-    NoteListComponent
+    NoteListComponent,
+
+
   ],
   imports: [
     BrowserModule
